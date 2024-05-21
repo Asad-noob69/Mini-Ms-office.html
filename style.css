@@ -1,88 +1,101 @@
 /* height: 30px; */
 /* width: 200px; - section style */
 
-*{
-    margin: 0px;
-    padding: 0px;   
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: khaki;
+}
+body h2 {
+  display: flex;
+  justify-content: center;
+  background-color: lightgoldenrodyellow;
+}
+.container {
+  display: block;
+  margin: auto;
+  width: 62%;
 }
 
-.container{
-    display: block;
-    margin: auto;
-    width: 62%;
+.toolbar {
+  display: flex;
+  margin-bottom: 70px;
+  margin-top: 45px;
+  gap: 25px;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
 
-.toolbar{
-    display: flex;
-    margin-bottom: 70px;
-    margin-top: 45px;
-    gap: 25px;
-    align-items: flex-end;
-    flex-wrap: wrap;
+#font-family {
+  width: 210px;
+  height: 38px;
+  border: 2px solid black;
+  font-size: 15px;
+  font-family: sans-serif;
 }
 
-#font-family{
-    width: 210px;
-    height: 38px;
-    border: 2px solid black;
-    font-size: 15px;
-    font-family: sans-serif;
+.heading-font-color {
+  font-size: 1rem;
+  font-family: sans-serif;
 }
 
-.heading-font-color{
-    font-size: 1rem;
-    font-family: sans-serif;
+.text-font-color {
+  border: 2px solid black;
+  margin: 10px 0px 0px 0px;
+  height: 20px;
+  padding: 3px;
 }
 
-.text-font-color{
-    border: 2px solid black;
-    margin: 10px 0px 0px 0px;
-    height: 20px;
-    padding: 3px;
+#font-case {
+  width: 180px;
+  height: 38px;
+  border: 2px solid black;
+  font-family: sans-serif;
+  font-size: 15px;
 }
 
-
-#font-case{
-    width: 180px;
-    height: 38px;
-    border: 2px solid black;
-    font-family: sans-serif;
-    font-size: 15px;
+.font-strech {
+  border: none;
+  border-radius: 4px;
+  margin: 0px 2px;
+  padding: 8px;
+  font-size: 0.9rem;
+  background: #cb416b;
+  color: white;
+}
+.color-picker {
+  display: block;
+}
+.color-picker input {
+  width: 10rem;
+  border-radius: 1rem;
+}
+.document-textarea {
+  position: relative;
+  top: 45px;
 }
 
-.font-strech{
-    border: none;
-    border-radius: 4px;
-    margin: 0px 2px;
-    padding: 8px;
-    font-size: 0.9rem;
-    background: #cb416b;
-    color: white;
+#main-textarea {
+  border: 2px solid black;
+  padding: 7px;
+  resize: none;
+  width: 605px;
+  font-size: 15px;
+  height: 311px;
 }
 
-.document-textarea{
-    position: relative;
-    top: 45px;
+.text-font-color:hover {
+  box-shadow: 0px 0px 5px 0px;
 }
 
-#main-textarea{
-    border: 2px solid black;
-    padding: 7px;
-    resize: none;
-    width: 605px;
-    font-size: 15px;
-    height: 311px;
+.font-increase-decrease:hover,
+.justify:hover {
+  box-shadow: 0px 0px 5px 0px gray;
 }
 
-.text-font-color:hover{
-    box-shadow: 0px 0px 5px 0px ;
-}
-
-.font-increase-decrease:hover, .justify:hover{
-    box-shadow: 0px 0px 5px 0px gray;
-}
-
-.font-strech:hover{
-    background-color: #b52e57;
-    box-shadow: 0px 0px 4px 0px gray;
+.font-strech:hover {
+  background-color: #b52e57;
+  box-shadow: 0px 0px 4px 0px gray;
 }
