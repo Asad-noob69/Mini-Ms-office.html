@@ -1,0 +1,14 @@
+/* Utility classes */
+
+.border-black{
+    border: 2px solid black;
+}
+
+.special-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.cursor{
+    cursor: pointer;
+}

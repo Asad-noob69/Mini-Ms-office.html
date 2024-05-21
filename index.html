@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Mini Ms Word</h2>
+    <div class="container">
+        <section class="toolbar">
+            <select name="" id="font-family" class="cursor">
+                <option value="Calibri ">Calibri </option>
+                <option value="Algerian">Algerian</option>
+                <option value="Agency FB">Agency FB</option>
+                <option value="Arial Rounded MT Bold">Arial Rounded MT Bold</option>
+                <option value="Engravers MT">Engravers MT</option>
+                <option value="Bahnschrift">Bahnschrift</option>
+                <option value="Microsoft JhengHei Light">Microsoft JhengHei Light</option>
+                <option value="Goudy Old Style">Goudy Old Style</option>
+                <option value="Franklin Gothic Demi Cond">Franklin Gothic Demi Cond</option>
+                <option value="Matura MT Script Capitals">Matura MT Script Capitals</option>
+            </select>
+            <div class="special-flex ">
+                <label for="" class="heading-font-color">Font color</label>
+                <input type="text" class="text-font-color">
+            </div>
+            <div class="special-flex ">
+                <label for="" class="heading-font-color">Background color</label>
+                <input type="text" class="text-font-color">
+            </div>
+            <div class="font-size">
+                <img src="./img/icons8-increase-font-24.png" alt="" class="border-black cursor font-increase-decrease">
+                <img src="./img/icons8-decrease-font-24.png" alt="" class="border-black cursor font-increase-decrease">
+            </div>
+            <div class="Text-justify cursor">
+               <img src="./img/icons8-align-left-24.png" class="border-black justify">
+               <img src="./img/icons8-align-center-24.png" class="border-black justify">
+               <img src="./img/icons8-align-right-24.png" class="border-black justify">
+               <img src="./img/icons8-text-justify-24.png" class="border-black justify">
+            </div>
+            <div class="font-case">
+                <select name="" id="font-case" class="cursor">
+                    <option value="" >Sentece case</option>
+                    <option value="" >lowercase</option>
+                    <option value="" >UPPER CASE</option>
+                    <option value="" >Capitalize Each Word</option>
+                    <option value="" >tOGGLE cASE</option>
+                </select>
+            </div>
+            <div class="font-btn-function ">
+                <button class="font-strech cursor">letter spacing</button>
+            </div>
+        </section>
+
+
+        <section class="document-textarea">
+            <textarea name="" id="main-textarea" rows="20" cols="80"></textarea>
+        </section>
+    </div>
+</body>
+</html>
